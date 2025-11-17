@@ -1,0 +1,31 @@
+# Large model files (GitHub has 100MB limit)
+*.caffemodel
+*.pth
+*.h5
+*.pkl
+
+# Large datasets
+*.mat
+wiki/
+imdb/
+selected_faces/*.jpg
+selected_faces/*.png
+
+# Keep CSV files but ignore large images
+*.jpg
+*.jpeg
+*.png
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+
+# PyCharm
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
