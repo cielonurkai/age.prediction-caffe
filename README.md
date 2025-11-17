@@ -1,10 +1,10 @@
 # Age Prediction using DEX Caffe Model
 
-This project uses the DEX (Deep EXpectation) age prediction model trained on the IMDB-WIKI dataset to predict ages from facial images.
+This project uses the DEX (Deep EXpectation) age prediction model trained on the IMDB-WIKI dataset (https://data.vision.ee.ethz.ch/cvl/rrothe/imdb-wiki/) to predict ages from facial images.
 
 ## Overview
 
-- Extracts 30 balanced face samples (15 male, 15 female) from WIKI dataset
+- Extracts 30 balanced face samples (15 male, 15 female) from WIKI dataset (face only, 1 GB)
 - Runs age prediction using pre-trained DEX Caffe model
 - Compares predicted ages with true ages for analysis
 
@@ -17,7 +17,7 @@ pip install opencv-python numpy pandas scipy
 
 Download the following files from [IMDB-WIKI dataset](https://data.vision.ee.ethz.ch/cvl/rrothe/imdb-wiki/):
 - `dex_imdb_wiki.caffemodel` (pre-trained model weights)
-- `age.prototxt.txt` (model architecture)
+- `age.prototxt.txt` (model architecture, download the texting one, not the training one)
 - WIKI faces dataset
 
 ## Usage
