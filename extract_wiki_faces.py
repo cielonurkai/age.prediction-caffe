@@ -7,13 +7,13 @@ from datetime import datetime
 
 # ============ CONFIGURATION ============
 # Path to wiki.mat file
-wiki_mat_path = r"C:\Users\1650491\OneDrive - Universiteit Utrecht\Documents\PhD-2024\NWO-2024\HR design\codes\Algorithm\wiki_crop\wiki_crop\wiki.mat"
+wiki_mat_path = r"C:\Yourpath\wiki.mat"
 
 # Path to wiki images folder (where folders 00-99 are)
-wiki_images_base = r"C:\Users\1650491\OneDrive - Universiteit Utrecht\Documents\PhD-2024\NWO-2024\HR design\codes\Algorithm\wiki_crop\wiki_crop"
+wiki_images_base = r"C:\Yourpath\wiki_crop"
 
 # Where to save selected faces
-output_folder = r"C:\Users\1650491\OneDrive - Universiteit Utrecht\Documents\PhD-2024\NWO-2024\HR design\codes\Algorithm\selected_faces"
+output_folder = r"C:\Yourpath\selected_faces"
 
 # Create output folder if it doesn't exist
 os.makedirs(output_folder, exist_ok=True)
