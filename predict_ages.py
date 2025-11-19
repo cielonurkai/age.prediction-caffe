@@ -5,9 +5,9 @@ import os
 
 # ============ CONFIGURATION ============
 # Paths
-selected_faces_folder = r"C:\Users\1650491\OneDrive - Universiteit Utrecht\Documents\PhD-2024\NWO-2024\HR design\codes\Algorithm\selected_faces"
-model_prototxt = r"C:\Users\1650491\OneDrive - Universiteit Utrecht\Documents\PhD-2024\NWO-2024\HR design\codes\Algorithm\age.prototxt.txt"  # UPDATE THIS PATH
-model_weights = r"C:\Users\1650491\OneDrive - Universiteit Utrecht\Documents\PhD-2024\NWO-2024\HR design\codes\Algorithm\dex_imdb_wiki.caffemodel"  # UPDATE THIS PATH
+selected_faces_folder = r"C:\Yourpath\selected_faces"
+model_prototxt = r"C:\Yourpath\age.prototxt.txt"  # UPDATE THIS PATH
+model_weights = r"C:\Yourpath\dex_imdb_wiki.caffemodel"  
 
 # CSV with metadata
 metadata_csv = os.path.join(selected_faces_folder, 'faces_metadata.csv')
