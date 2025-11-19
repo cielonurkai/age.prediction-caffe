@@ -4,7 +4,7 @@ This project uses the DEX (Deep EXpectation) age prediction model trained on the
 
 ## Overview
 
-- Extracts 30 balanced face samples (15 male, 15 female) from WIKI dataset (face only, 1 GB)
+- Extracts 50 balanced face samples (25 male, 25 female) from WIKI dataset (face only, 1 GB)
 - Runs age prediction using pre-trained DEX Caffe model
 - Compares predicted ages with true ages for analysis
 
